@@ -1,0 +1,56 @@
+body{
+  margin: 30px;
+  padding: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: normal;
+}
+
+p{
+  margin: 3px;
+  color: aquamarine;
+}
+
+.fa-heart{
+  color:rgb(224, 36, 94);
+}
+
+.fa-star{
+  color:rgb(235, 194, 20);
+}
+
+.fa-retweet{
+  color: rgb(23, 191, 99);
+}
+
+.fa-heart{
+  animation: anime1 900ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes anime1{
+  0% {
+    transform: scale(0);
+    fill: #E2264D;
+  }
+  30% {
+    transform: scale(1.2, 1.2);
+  }
+  70% {
+    transform: scale(1, 1) translate(0%, -10%);
+  }
+  75% {
+    transform: scale(1.1, 0.9) translate(0%, 5%);
+  }
+  80% {
+    transform: scale(0.95, 1.05) translate(0%, -3%);
+  }
+  100% {
+    transform: scale(1.0, 1.0) translate(0%, 0%);
+    fill: #E2264D;
+  }
+}

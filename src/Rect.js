@@ -26,8 +26,9 @@ class Rect extends Component{
       borderRadius: this.radius + "px"
     }
   }
-render(){
-  return <div style={this.style}></div>;
-}
+
+  render(){
+    return <div style={this.style}></div>;
+  }
 }
 export default Rect;
